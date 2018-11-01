@@ -6,6 +6,7 @@ int *sum(int x, int y) {
   for (size_t i = 0; i != 1000; ++i)
     rv[i] = x + y + i;
   return rv;
+  // не освобождается выделенная через malloc память
 }
 
 int main(void) {

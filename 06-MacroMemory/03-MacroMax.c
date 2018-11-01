@@ -14,5 +14,5 @@ int main(void) {
   uint64_t x = 200;
 
   printf("%llu\n", DOUBLE(x));
-  // printf("%llu\n", DOUBLE(x) + 1);
+  printf("%llu\n", DOUBLE(x) + 1);
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// пример условного макроса.
 #if defined(__GNUC__)
 #  define ALIGNOF(type) __alignof__(type)
 #elif defined(_MSC_VER)
